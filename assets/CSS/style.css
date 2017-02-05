@@ -1,7 +1,7 @@
 body {
  background: #8B0000;
  margin: 25px;
- width: auto;
+ width: 800px;
  
  display: inline-block;
 
@@ -13,14 +13,15 @@ body {
 h1 {
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    text-align: center;
+    text-align: left;
     width: 800px;
+    padding-left: 50px;
 
 }
 
 .container {
    
-    width: 650px;
+    width: 500px;
     border: thick;
     margin: 25px;
     padding: 25px;
@@ -39,7 +40,7 @@ h2 {
 img {
     text-align: center;
     vertical-align: center;
-    width: 300px;
+    width: 200px;
     height: 200px;
     padding: 15px;
 
@@ -69,9 +70,9 @@ img {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .continer {
         height: auto;
-        width: 600px;
+        width: auto;
 }
 }
