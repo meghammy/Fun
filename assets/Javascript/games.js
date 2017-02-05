@@ -2,7 +2,7 @@
 
 
 var dog = [
-	["I","","L","O","V","E","","Y","O","U","","T","O","O"],
+	["I","L","O","V","E","Y","O","U","T","O","O"],
 ]
 
 var random = Math.floor((Math.random()*(dog.length-1))); 
